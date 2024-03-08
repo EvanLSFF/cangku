@@ -1,0 +1,44 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "test_001[data0]",
+    "uid" : "6b90c565777f540a",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1682837106817,
+      "stop" : 1682837119677,
+      "duration" : 12860
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "{'username': '李四', 'pwd': '123456', 'sex': 'F', 'guoji': 'zonguo', 'like': 'dalanqiu,tizuqiu', 'xueli': '大专', 'ziwojies': '我是自动化输入的,输入就是成功了', 'zp': 'D:\\\\A\\\\2.png,D:\\\\A\\\\3.png', 'zc': '注册', 'key': 'K001'}" ]
+  }, {
+    "name" : "test_001[data1]",
+    "uid" : "649c30d6c556c577",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1682837126624,
+      "stop" : 1682837139025,
+      "duration" : 12401
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "{'username': '李静', 'pwd': '123456', 'sex': 'F', 'guoji': 'faguo', 'like': 'wanyouxi', 'xueli': '研究生', 'ziwojies': '我是自动化输入的,输入就是成功了', 'zp': 'D:\\\\A\\\\5.png', 'zc': '清空', 'key': 'K002'}" ]
+  }, {
+    "name" : "test_001[data2]",
+    "uid" : "d127fa621f27611b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1682837146489,
+      "stop" : 1682837153659,
+      "duration" : 7170
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "{'username': '李静', 'pwd': '123456', 'sex': 'F', 'guoji': 'yinguo', 'like': '', 'xueli': '研究生', 'ziwojies': '我是自动化输入的,输入就是成功了', 'zp': '', 'zc': '清空', 'key': 'K004'}" ]
+  } ]
+}

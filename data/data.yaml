@@ -1,0 +1,33 @@
+test_zhuce_001:
+  K001:
+    username: "李四"
+    pwd: "123456"
+    sex: "F"
+    guoji: "zonguo"
+    like: "dalanqiu,tizuqiu"
+    xueli: "大专"
+    ziwojies: "我是自动化输入的,输入就是成功了"
+    zp: "D:\\A\\2.png,D:\\A\\3.png"
+    zc: "注册"
+
+  K002:
+    username: "李静"
+    pwd: "123456"
+    sex: "F"
+    guoji: "faguo"
+    like: "wanyouxi"
+    xueli: "研究生"
+    ziwojies: "我是自动化输入的,输入就是成功了"
+    zp: "D:\\A\\5.png"
+    zc: "清空"
+
+  K004:
+    username: "李静"
+    pwd: "123456"
+    sex: "F"
+    guoji: "yinguo"
+    like: ""
+    xueli: "研究生"
+    ziwojies: "我是自动化输入的,输入就是成功了"
+    zp: ""
+    zc: "清空"

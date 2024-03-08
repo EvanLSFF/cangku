@@ -1,0 +1,121 @@
+{
+  "uid" : "9893ecb99ac2bcde",
+  "name" : "test_001[data1]",
+  "fullName" : "script.test_form.Test01#test_001",
+  "historyId" : "491bab653610aab38f398d6d37abf2be",
+  "time" : {
+    "start" : 1682476933077,
+    "stop" : 1682476945354,
+    "duration" : 12277
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_xunit_setup_method_fixture_Test01",
+    "time" : {
+      "start" : 1682476931581,
+      "stop" : 1682476933076,
+      "duration" : 1495
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "覆盖用例,k001,K002,K003",
+      "time" : {
+        "start" : 1682476933077,
+        "stop" : 1682476945354,
+        "duration" : 12277
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "585c7ea1e18ca3d6",
+        "name" : "步骤:输入账号:李静",
+        "source" : "585c7ea1e18ca3d6.attach",
+        "type" : "application/octet-stream",
+        "size" : 0
+      } ],
+      "parameters" : [ {
+        "name" : "data",
+        "value" : "{'username': '李静', 'pwd': '123456', 'sex': 'F', 'guoji': 'faguo', 'like': 'wanyouxi', 'xueli': '研究生', 'ziwojies': '我是自动化输入的,输入就是成功了', 'zp': 'D:\\\\A\\\\5.png', 'zc': '清空', 'key': 'K002'}"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_xunit_setup_method_fixture_Test01::0",
+    "time" : {
+      "start" : 1682476945355,
+      "stop" : 1682476950583,
+      "duration" : 5228
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "script"
+  }, {
+    "name" : "suite",
+    "value" : "test_form"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test01"
+  }, {
+    "name" : "host",
+    "value" : "ZWY"
+  }, {
+    "name" : "thread",
+    "value" : "54140-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "script.test_form"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'username': '李静', 'pwd': '123456', 'sex': 'F', 'guoji': 'faguo', 'like': 'wanyouxi', 'xueli': '研究生', 'ziwojies': '我是自动化输入的,输入就是成功了', 'zp': 'D:\\\\A\\\\5.png', 'zc': '清空', 'key': 'K002'}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9893ecb99ac2bcde.json",
+  "parameterValues" : [ "{'username': '李静', 'pwd': '123456', 'sex': 'F', 'guoji': 'faguo', 'like': 'wanyouxi', 'xueli': '研究生', 'ziwojies': '我是自动化输入的,输入就是成功了', 'zp': 'D:\\\\A\\\\5.png', 'zc': '清空', 'key': 'K002'}" ]
+}

@@ -1,0 +1,133 @@
+{
+  "uid" : "7215207fa49c5985",
+  "name" : "test_001[data2]",
+  "fullName" : "script.test_form.Test01#test_001",
+  "historyId" : "a8187714c858665855e596310ac124b0",
+  "time" : {
+    "start" : 1682568994387,
+    "stop" : 1682569001034,
+    "duration" : 6647
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_xunit_setup_method_fixture_Test01",
+    "time" : {
+      "start" : 1682568992829,
+      "stop" : 1682568994386,
+      "duration" : 1557
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "覆盖用例,k001,K002,K003",
+      "time" : {
+        "start" : 1682568994387,
+        "stop" : 1682569001034,
+        "duration" : 6647
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "200a12a193a0a6c2",
+        "name" : "步骤:输入账号:李静",
+        "source" : "200a12a193a0a6c2.attach",
+        "type" : "application/octet-stream",
+        "size" : 0
+      }, {
+        "uid" : "231013e00690ed64",
+        "name" : "298161d8-aa8c-4022-bb01-3323c0d5358e-attachment.attach",
+        "source" : "231013e00690ed64.attach",
+        "type" : "text/plain",
+        "size" : 47
+      }, {
+        "uid" : "355f83aaacd130c8",
+        "name" : "步骤:本次截图",
+        "source" : "355f83aaacd130c8.png",
+        "type" : "image/png",
+        "size" : 78318
+      } ],
+      "parameters" : [ {
+        "name" : "data",
+        "value" : "{'username': '李静', 'pwd': '123456', 'sex': 'F', 'guoji': 'yinguo', 'like': '', 'xueli': '研究生', 'ziwojies': '我是自动化输入的,输入就是成功了', 'zp': '', 'zc': '清空', 'key': 'K004'}"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 3,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 3,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_xunit_setup_method_fixture_Test01::0",
+    "time" : {
+      "start" : 1682569001035,
+      "stop" : 1682569006246,
+      "duration" : 5211
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "script"
+  }, {
+    "name" : "suite",
+    "value" : "test_form"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test01"
+  }, {
+    "name" : "host",
+    "value" : "ZWY"
+  }, {
+    "name" : "thread",
+    "value" : "11464-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "script.test_form"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'username': '李静', 'pwd': '123456', 'sex': 'F', 'guoji': 'yinguo', 'like': '', 'xueli': '研究生', 'ziwojies': '我是自动化输入的,输入就是成功了', 'zp': '', 'zc': '清空', 'key': 'K004'}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7215207fa49c5985.json",
+  "parameterValues" : [ "{'username': '李静', 'pwd': '123456', 'sex': 'F', 'guoji': 'yinguo', 'like': '', 'xueli': '研究生', 'ziwojies': '我是自动化输入的,输入就是成功了', 'zp': '', 'zc': '清空', 'key': 'K004'}" ]
+}

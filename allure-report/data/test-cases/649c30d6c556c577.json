@@ -1,0 +1,213 @@
+{
+  "uid" : "649c30d6c556c577",
+  "name" : "test_001[data1]",
+  "fullName" : "script.test_form.Test01#test_001",
+  "historyId" : "491bab653610aab38f398d6d37abf2be",
+  "time" : {
+    "start" : 1682837126624,
+    "stop" : 1682837139025,
+    "duration" : 12401
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_xunit_setup_method_fixture_Test01",
+    "time" : {
+      "start" : 1682837124953,
+      "stop" : 1682837126623,
+      "duration" : 1670
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "覆盖用例,k001,K002,K003",
+      "time" : {
+        "start" : 1682837126624,
+        "stop" : 1682837139025,
+        "duration" : 12401
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "20f2e30f7af73ba1",
+        "name" : "步骤:输入账号:李静",
+        "source" : "20f2e30f7af73ba1.attach",
+        "type" : "application/octet-stream",
+        "size" : 0
+      }, {
+        "uid" : "43160c745a8ca187",
+        "name" : "f2d61f12-2c9a-4127-9fb0-1365ebfa62ce-attachment.attach",
+        "source" : "43160c745a8ca187.attach",
+        "type" : "text/plain",
+        "size" : 54
+      }, {
+        "uid" : "2519fd7a4a5edb20",
+        "name" : "步骤:本次截图",
+        "source" : "2519fd7a4a5edb20.png",
+        "type" : "image/png",
+        "size" : 78318
+      } ],
+      "parameters" : [ {
+        "name" : "data",
+        "value" : "{'username': '李静', 'pwd': '123456', 'sex': 'F', 'guoji': 'faguo', 'like': 'wanyouxi', 'xueli': '研究生', 'ziwojies': '我是自动化输入的,输入就是成功了', 'zp': 'D:\\\\A\\\\5.png', 'zc': '清空', 'key': 'K002'}"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 3,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 3,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_xunit_setup_method_fixture_Test01::0",
+    "time" : {
+      "start" : 1682837139027,
+      "stop" : 1682837144455,
+      "duration" : 5428
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "script"
+  }, {
+    "name" : "suite",
+    "value" : "test_form"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test01"
+  }, {
+    "name" : "host",
+    "value" : "ZWY"
+  }, {
+    "name" : "thread",
+    "value" : "66692-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "script.test_form"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'username': '李静', 'pwd': '123456', 'sex': 'F', 'guoji': 'faguo', 'like': 'wanyouxi', 'xueli': '研究生', 'ziwojies': '我是自动化输入的,输入就是成功了', 'zp': 'D:\\\\A\\\\5.png', 'zc': '清空', 'key': 'K002'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "6a82e82e7ef2885a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1682568975247,
+        "stop" : 1682568987601,
+        "duration" : 12354
+      }
+    }, {
+      "uid" : "df9e4a5caa93e31f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1682566973383,
+        "stop" : 1682566985743,
+        "duration" : 12360
+      }
+    }, {
+      "uid" : "31045899a7cc41f6",
+      "status" : "broken",
+      "statusDetails" : "FileNotFoundError: [Errno 2] No such file or directory: 'screen/K00220230427_114109.png'",
+      "time" : {
+        "start" : 1682566858906,
+        "stop" : 1682566869241,
+        "duration" : 10335
+      }
+    }, {
+      "uid" : "666258d8bd8d75da",
+      "status" : "broken",
+      "statusDetails" : "FileNotFoundError: [Errno 2] No such file or directory: 'screen/20230427_114004.png'",
+      "time" : {
+        "start" : 1682566794552,
+        "stop" : 1682566804932,
+        "duration" : 10380
+      }
+    }, {
+      "uid" : "b555e8b1ebb630d5",
+      "status" : "broken",
+      "statusDetails" : "FileNotFoundError: [Errno 2] No such file or directory: 'screen/20230427_113532.png'",
+      "time" : {
+        "start" : 1682566521969,
+        "stop" : 1682566532282,
+        "duration" : 10313
+      }
+    }, {
+      "uid" : "9d51ff4eb95a0518",
+      "status" : "broken",
+      "statusDetails" : "FileNotFoundError: [Errno 2] No such file or directory: 'screen/20230427_113249.png'",
+      "time" : {
+        "start" : 1682566359774,
+        "stop" : 1682566370143,
+        "duration" : 10369
+      }
+    }, {
+      "uid" : "34ae41218666c04e",
+      "status" : "broken",
+      "statusDetails" : "FileNotFoundError: [Errno 2] No such file or directory: '../screen/20230427_113125.png'",
+      "time" : {
+        "start" : 1682566275631,
+        "stop" : 1682566286009,
+        "duration" : 10378
+      }
+    }, {
+      "uid" : "b94647ec4d11b149",
+      "status" : "broken",
+      "statusDetails" : "FileNotFoundError: [Errno 2] No such file or directory: './screen/20230427_112657.png'",
+      "time" : {
+        "start" : 1682566007085,
+        "stop" : 1682566017422,
+        "duration" : 10337
+      }
+    }, {
+      "uid" : "9893ecb99ac2bcde",
+      "status" : "passed",
+      "time" : {
+        "start" : 1682476933077,
+        "stop" : 1682476945354,
+        "duration" : 12277
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "649c30d6c556c577.json",
+  "parameterValues" : [ "{'username': '李静', 'pwd': '123456', 'sex': 'F', 'guoji': 'faguo', 'like': 'wanyouxi', 'xueli': '研究生', 'ziwojies': '我是自动化输入的,输入就是成功了', 'zp': 'D:\\\\A\\\\5.png', 'zc': '清空', 'key': 'K002'}" ]
+}

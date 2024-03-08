@@ -1,0 +1,56 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "script",
+    "children" : [ {
+      "name" : "test_form",
+      "children" : [ {
+        "name" : "Test01",
+        "children" : [ {
+          "name" : "test_001[data0]",
+          "uid" : "6b90c565777f540a",
+          "parentUid" : "6fcdfd629021ac98d0cc5cb472b9a345",
+          "status" : "passed",
+          "time" : {
+            "start" : 1682837106817,
+            "stop" : 1682837119677,
+            "duration" : 12860
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'username': '李四', 'pwd': '123456', 'sex': 'F', 'guoji': 'zonguo', 'like': 'dalanqiu,tizuqiu', 'xueli': '大专', 'ziwojies': '我是自动化输入的,输入就是成功了', 'zp': 'D:\\\\A\\\\2.png,D:\\\\A\\\\3.png', 'zc': '注册', 'key': 'K001'}" ]
+        }, {
+          "name" : "test_001[data1]",
+          "uid" : "649c30d6c556c577",
+          "parentUid" : "6fcdfd629021ac98d0cc5cb472b9a345",
+          "status" : "passed",
+          "time" : {
+            "start" : 1682837126624,
+            "stop" : 1682837139025,
+            "duration" : 12401
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'username': '李静', 'pwd': '123456', 'sex': 'F', 'guoji': 'faguo', 'like': 'wanyouxi', 'xueli': '研究生', 'ziwojies': '我是自动化输入的,输入就是成功了', 'zp': 'D:\\\\A\\\\5.png', 'zc': '清空', 'key': 'K002'}" ]
+        }, {
+          "name" : "test_001[data2]",
+          "uid" : "d127fa621f27611b",
+          "parentUid" : "6fcdfd629021ac98d0cc5cb472b9a345",
+          "status" : "passed",
+          "time" : {
+            "start" : 1682837146489,
+            "stop" : 1682837153659,
+            "duration" : 7170
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'username': '李静', 'pwd': '123456', 'sex': 'F', 'guoji': 'yinguo', 'like': '', 'xueli': '研究生', 'ziwojies': '我是自动化输入的,输入就是成功了', 'zp': '', 'zc': '清空', 'key': 'K004'}" ]
+        } ],
+        "uid" : "6fcdfd629021ac98d0cc5cb472b9a345"
+      } ],
+      "uid" : "7fc4c84dbd40d181b8fd10245f16ad95"
+    } ],
+    "uid" : "753b61216abbfea068f4ca4e530487c6"
+  } ]
+}

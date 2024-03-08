@@ -1,0 +1,439 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "ZWY",
+    "children" : [ {
+      "name" : "31896-MainThread",
+      "children" : [ {
+        "name" : "test_001[data2]",
+        "uid" : "255da60d606ce384",
+        "parentUid" : "37d42e78c84ed2f870e8db4361580826",
+        "status" : "broken",
+        "time" : {
+          "start" : 1682566539635,
+          "stop" : 1682566544246,
+          "duration" : 4611
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'username': '李静', 'pwd': '123456', 'sex': 'F', 'guoji': 'yinguo', 'like': '', 'xueli': '研究生', 'ziwojies': '我是自动化输入的,输入就是成功了', 'zp': '', 'zc': '清空', 'key': 'K004'}" ]
+      }, {
+        "name" : "test_001[data1]",
+        "uid" : "b555e8b1ebb630d5",
+        "parentUid" : "37d42e78c84ed2f870e8db4361580826",
+        "status" : "broken",
+        "time" : {
+          "start" : 1682566521969,
+          "stop" : 1682566532282,
+          "duration" : 10313
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'username': '李静', 'pwd': '123456', 'sex': 'F', 'guoji': 'faguo', 'like': 'wanyouxi', 'xueli': '研究生', 'ziwojies': '我是自动化输入的,输入就是成功了', 'zp': 'D:\\\\A\\\\5.png', 'zc': '清空', 'key': 'K002'}" ]
+      }, {
+        "name" : "test_001[data0]",
+        "uid" : "bc0535028279b94a",
+        "parentUid" : "37d42e78c84ed2f870e8db4361580826",
+        "status" : "passed",
+        "time" : {
+          "start" : 1682566503120,
+          "stop" : 1682566515224,
+          "duration" : 12104
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'username': '李四', 'pwd': '123456', 'sex': 'F', 'guoji': 'zonguo', 'like': 'dalanqiu,tizuqiu', 'xueli': '大专', 'ziwojies': '我是自动化输入的,输入就是成功了', 'zp': 'D:\\\\A\\\\2.png,D:\\\\A\\\\3.png', 'zc': '注册', 'key': 'K001'}" ]
+      } ],
+      "uid" : "37d42e78c84ed2f870e8db4361580826"
+    }, {
+      "name" : "66860-MainThread",
+      "children" : [ {
+        "name" : "test_001[data2]",
+        "uid" : "873a10fe58d7a1c4",
+        "parentUid" : "87c9fecfd8696502aad934731b443f75",
+        "status" : "broken",
+        "time" : {
+          "start" : 1682566024747,
+          "stop" : 1682566030128,
+          "duration" : 5381
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'username': '李静', 'pwd': '123456', 'sex': 'F', 'guoji': 'yinguo', 'like': '', 'xueli': '研究生', 'ziwojies': '我是自动化输入的,输入就是成功了', 'zp': '', 'zc': '清空', 'key': 'K004'}" ]
+      }, {
+        "name" : "test_001[data1]",
+        "uid" : "b94647ec4d11b149",
+        "parentUid" : "87c9fecfd8696502aad934731b443f75",
+        "status" : "broken",
+        "time" : {
+          "start" : 1682566007085,
+          "stop" : 1682566017422,
+          "duration" : 10337
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'username': '李静', 'pwd': '123456', 'sex': 'F', 'guoji': 'faguo', 'like': 'wanyouxi', 'xueli': '研究生', 'ziwojies': '我是自动化输入的,输入就是成功了', 'zp': 'D:\\\\A\\\\5.png', 'zc': '清空', 'key': 'K002'}" ]
+      }, {
+        "name" : "test_001[data0]",
+        "uid" : "2b6ed4d17fed46ea",
+        "parentUid" : "87c9fecfd8696502aad934731b443f75",
+        "status" : "passed",
+        "time" : {
+          "start" : 1682565987373,
+          "stop" : 1682566000253,
+          "duration" : 12880
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'username': '李四', 'pwd': '123456', 'sex': 'F', 'guoji': 'zonguo', 'like': 'dalanqiu,tizuqiu', 'xueli': '大专', 'ziwojies': '我是自动化输入的,输入就是成功了', 'zp': 'D:\\\\A\\\\2.png,D:\\\\A\\\\3.png', 'zc': '注册', 'key': 'K001'}" ]
+      } ],
+      "uid" : "87c9fecfd8696502aad934731b443f75"
+    }, {
+      "name" : "66692-MainThread",
+      "children" : [ {
+        "name" : "test_001[data1]",
+        "uid" : "649c30d6c556c577",
+        "parentUid" : "421cc6267c69c72f753048e52049d180",
+        "status" : "passed",
+        "time" : {
+          "start" : 1682837126624,
+          "stop" : 1682837139025,
+          "duration" : 12401
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'username': '李静', 'pwd': '123456', 'sex': 'F', 'guoji': 'faguo', 'like': 'wanyouxi', 'xueli': '研究生', 'ziwojies': '我是自动化输入的,输入就是成功了', 'zp': 'D:\\\\A\\\\5.png', 'zc': '清空', 'key': 'K002'}" ]
+      }, {
+        "name" : "test_001[data2]",
+        "uid" : "d127fa621f27611b",
+        "parentUid" : "421cc6267c69c72f753048e52049d180",
+        "status" : "passed",
+        "time" : {
+          "start" : 1682837146489,
+          "stop" : 1682837153659,
+          "duration" : 7170
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'username': '李静', 'pwd': '123456', 'sex': 'F', 'guoji': 'yinguo', 'like': '', 'xueli': '研究生', 'ziwojies': '我是自动化输入的,输入就是成功了', 'zp': '', 'zc': '清空', 'key': 'K004'}" ]
+      }, {
+        "name" : "test_001[data0]",
+        "uid" : "6b90c565777f540a",
+        "parentUid" : "421cc6267c69c72f753048e52049d180",
+        "status" : "passed",
+        "time" : {
+          "start" : 1682837106817,
+          "stop" : 1682837119677,
+          "duration" : 12860
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'username': '李四', 'pwd': '123456', 'sex': 'F', 'guoji': 'zonguo', 'like': 'dalanqiu,tizuqiu', 'xueli': '大专', 'ziwojies': '我是自动化输入的,输入就是成功了', 'zp': 'D:\\\\A\\\\2.png,D:\\\\A\\\\3.png', 'zc': '注册', 'key': 'K001'}" ]
+      } ],
+      "uid" : "421cc6267c69c72f753048e52049d180"
+    }, {
+      "name" : "32944-MainThread",
+      "children" : [ {
+        "name" : "test_001[data0]",
+        "uid" : "5f9c69af63f7e2d7",
+        "parentUid" : "f4d9f8fca4039b76ce2f6ef276bb9982",
+        "status" : "passed",
+        "time" : {
+          "start" : 1682566256512,
+          "stop" : 1682566268705,
+          "duration" : 12193
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'username': '李四', 'pwd': '123456', 'sex': 'F', 'guoji': 'zonguo', 'like': 'dalanqiu,tizuqiu', 'xueli': '大专', 'ziwojies': '我是自动化输入的,输入就是成功了', 'zp': 'D:\\\\A\\\\2.png,D:\\\\A\\\\3.png', 'zc': '注册', 'key': 'K001'}" ]
+      }, {
+        "name" : "test_001[data2]",
+        "uid" : "2a60206ea2202dc0",
+        "parentUid" : "f4d9f8fca4039b76ce2f6ef276bb9982",
+        "status" : "broken",
+        "time" : {
+          "start" : 1682566293465,
+          "stop" : 1682566298096,
+          "duration" : 4631
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'username': '李静', 'pwd': '123456', 'sex': 'F', 'guoji': 'yinguo', 'like': '', 'xueli': '研究生', 'ziwojies': '我是自动化输入的,输入就是成功了', 'zp': '', 'zc': '清空', 'key': 'K004'}" ]
+      }, {
+        "name" : "test_001[data1]",
+        "uid" : "34ae41218666c04e",
+        "parentUid" : "f4d9f8fca4039b76ce2f6ef276bb9982",
+        "status" : "broken",
+        "time" : {
+          "start" : 1682566275631,
+          "stop" : 1682566286009,
+          "duration" : 10378
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'username': '李静', 'pwd': '123456', 'sex': 'F', 'guoji': 'faguo', 'like': 'wanyouxi', 'xueli': '研究生', 'ziwojies': '我是自动化输入的,输入就是成功了', 'zp': 'D:\\\\A\\\\5.png', 'zc': '清空', 'key': 'K002'}" ]
+      } ],
+      "uid" : "f4d9f8fca4039b76ce2f6ef276bb9982"
+    }, {
+      "name" : "54068-MainThread",
+      "children" : [ {
+        "name" : "test_001[data2]",
+        "uid" : "f855b0b035f1a111",
+        "parentUid" : "ef38490659345736aa5c01b514700e0f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1682566876553,
+          "stop" : 1682566877774,
+          "duration" : 1221
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'username': '李静', 'pwd': '123456', 'sex': 'F', 'guoji': 'yinguo', 'like': '', 'xueli': '研究生', 'ziwojies': '我是自动化输入的,输入就是成功了', 'zp': '', 'zc': '清空', 'key': 'K004'}" ]
+      }, {
+        "name" : "test_001[data1]",
+        "uid" : "31045899a7cc41f6",
+        "parentUid" : "ef38490659345736aa5c01b514700e0f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1682566858906,
+          "stop" : 1682566869241,
+          "duration" : 10335
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'username': '李静', 'pwd': '123456', 'sex': 'F', 'guoji': 'faguo', 'like': 'wanyouxi', 'xueli': '研究生', 'ziwojies': '我是自动化输入的,输入就是成功了', 'zp': 'D:\\\\A\\\\5.png', 'zc': '清空', 'key': 'K002'}" ]
+      }, {
+        "name" : "test_001[data0]",
+        "uid" : "57be362373a6fdaa",
+        "parentUid" : "ef38490659345736aa5c01b514700e0f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1682566840045,
+          "stop" : 1682566852149,
+          "duration" : 12104
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'username': '李四', 'pwd': '123456', 'sex': 'F', 'guoji': 'zonguo', 'like': 'dalanqiu,tizuqiu', 'xueli': '大专', 'ziwojies': '我是自动化输入的,输入就是成功了', 'zp': 'D:\\\\A\\\\2.png,D:\\\\A\\\\3.png', 'zc': '注册', 'key': 'K001'}" ]
+      } ],
+      "uid" : "ef38490659345736aa5c01b514700e0f"
+    }, {
+      "name" : "54140-MainThread",
+      "children" : [ {
+        "name" : "test_001[data1]",
+        "uid" : "9893ecb99ac2bcde",
+        "parentUid" : "97731c71c86cac92634f87881f697b8b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1682476933077,
+          "stop" : 1682476945354,
+          "duration" : 12277
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'username': '李静', 'pwd': '123456', 'sex': 'F', 'guoji': 'faguo', 'like': 'wanyouxi', 'xueli': '研究生', 'ziwojies': '我是自动化输入的,输入就是成功了', 'zp': 'D:\\\\A\\\\5.png', 'zc': '清空', 'key': 'K002'}" ]
+      }, {
+        "name" : "test_001[data2]",
+        "uid" : "17c4f39e28973a69",
+        "parentUid" : "97731c71c86cac92634f87881f697b8b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1682476952116,
+          "stop" : 1682476958745,
+          "duration" : 6629
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'username': '李静', 'pwd': '123456', 'sex': 'F', 'guoji': 'yinguo', 'like': '', 'xueli': '研究生', 'ziwojies': '我是自动化输入的,输入就是成功了', 'zp': '', 'zc': '清空', 'key': 'K004'}" ]
+      }, {
+        "name" : "test_001[data0]",
+        "uid" : "366ecf62b1773b43",
+        "parentUid" : "97731c71c86cac92634f87881f697b8b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1682476914269,
+          "stop" : 1682476926361,
+          "duration" : 12092
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'username': '李四', 'pwd': '123456', 'sex': 'F', 'guoji': 'zonguo', 'like': 'dalanqiu,tizuqiu', 'xueli': '大专', 'ziwojies': '我是自动化输入的,输入就是成功了', 'zp': 'D:\\\\A\\\\2.png,D:\\\\A\\\\3.png', 'zc': '注册', 'key': 'K001'}" ]
+      } ],
+      "uid" : "97731c71c86cac92634f87881f697b8b"
+    }, {
+      "name" : "11464-MainThread",
+      "children" : [ {
+        "name" : "test_001[data0]",
+        "uid" : "8e7f55715ed320fb",
+        "parentUid" : "425cc7193d67a94f7a1518872b22ce22",
+        "status" : "passed",
+        "time" : {
+          "start" : 1682568956318,
+          "stop" : 1682568968527,
+          "duration" : 12209
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'username': '李四', 'pwd': '123456', 'sex': 'F', 'guoji': 'zonguo', 'like': 'dalanqiu,tizuqiu', 'xueli': '大专', 'ziwojies': '我是自动化输入的,输入就是成功了', 'zp': 'D:\\\\A\\\\2.png,D:\\\\A\\\\3.png', 'zc': '注册', 'key': 'K001'}" ]
+      }, {
+        "name" : "test_001[data1]",
+        "uid" : "6a82e82e7ef2885a",
+        "parentUid" : "425cc7193d67a94f7a1518872b22ce22",
+        "status" : "passed",
+        "time" : {
+          "start" : 1682568975247,
+          "stop" : 1682568987601,
+          "duration" : 12354
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'username': '李静', 'pwd': '123456', 'sex': 'F', 'guoji': 'faguo', 'like': 'wanyouxi', 'xueli': '研究生', 'ziwojies': '我是自动化输入的,输入就是成功了', 'zp': 'D:\\\\A\\\\5.png', 'zc': '清空', 'key': 'K002'}" ]
+      }, {
+        "name" : "test_001[data2]",
+        "uid" : "7215207fa49c5985",
+        "parentUid" : "425cc7193d67a94f7a1518872b22ce22",
+        "status" : "passed",
+        "time" : {
+          "start" : 1682568994387,
+          "stop" : 1682569001034,
+          "duration" : 6647
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'username': '李静', 'pwd': '123456', 'sex': 'F', 'guoji': 'yinguo', 'like': '', 'xueli': '研究生', 'ziwojies': '我是自动化输入的,输入就是成功了', 'zp': '', 'zc': '清空', 'key': 'K004'}" ]
+      } ],
+      "uid" : "425cc7193d67a94f7a1518872b22ce22"
+    }, {
+      "name" : "42932-MainThread",
+      "children" : [ {
+        "name" : "test_001[data1]",
+        "uid" : "9d51ff4eb95a0518",
+        "parentUid" : "e832674e5b98f624460e54d051501c33",
+        "status" : "broken",
+        "time" : {
+          "start" : 1682566359774,
+          "stop" : 1682566370143,
+          "duration" : 10369
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'username': '李静', 'pwd': '123456', 'sex': 'F', 'guoji': 'faguo', 'like': 'wanyouxi', 'xueli': '研究生', 'ziwojies': '我是自动化输入的,输入就是成功了', 'zp': 'D:\\\\A\\\\5.png', 'zc': '清空', 'key': 'K002'}" ]
+      }, {
+        "name" : "test_001[data0]",
+        "uid" : "449d780ee6182df",
+        "parentUid" : "e832674e5b98f624460e54d051501c33",
+        "status" : "passed",
+        "time" : {
+          "start" : 1682566340719,
+          "stop" : 1682566352893,
+          "duration" : 12174
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'username': '李四', 'pwd': '123456', 'sex': 'F', 'guoji': 'zonguo', 'like': 'dalanqiu,tizuqiu', 'xueli': '大专', 'ziwojies': '我是自动化输入的,输入就是成功了', 'zp': 'D:\\\\A\\\\2.png,D:\\\\A\\\\3.png', 'zc': '注册', 'key': 'K001'}" ]
+      }, {
+        "name" : "test_001[data2]",
+        "uid" : "4c26782242583b23",
+        "parentUid" : "e832674e5b98f624460e54d051501c33",
+        "status" : "broken",
+        "time" : {
+          "start" : 1682566377502,
+          "stop" : 1682566382174,
+          "duration" : 4672
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'username': '李静', 'pwd': '123456', 'sex': 'F', 'guoji': 'yinguo', 'like': '', 'xueli': '研究生', 'ziwojies': '我是自动化输入的,输入就是成功了', 'zp': '', 'zc': '清空', 'key': 'K004'}" ]
+      } ],
+      "uid" : "e832674e5b98f624460e54d051501c33"
+    }, {
+      "name" : "63744-MainThread",
+      "children" : [ {
+        "name" : "test_001[data2]",
+        "uid" : "4692fc35d1706c4f",
+        "parentUid" : "79a11ce1faf9765998232307fd609b62",
+        "status" : "broken",
+        "time" : {
+          "start" : 1682566812338,
+          "stop" : 1682566815773,
+          "duration" : 3435
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'username': '李静', 'pwd': '123456', 'sex': 'F', 'guoji': 'yinguo', 'like': '', 'xueli': '研究生', 'ziwojies': '我是自动化输入的,输入就是成功了', 'zp': '', 'zc': '清空', 'key': 'K004'}" ]
+      }, {
+        "name" : "test_001[data1]",
+        "uid" : "666258d8bd8d75da",
+        "parentUid" : "79a11ce1faf9765998232307fd609b62",
+        "status" : "broken",
+        "time" : {
+          "start" : 1682566794552,
+          "stop" : 1682566804932,
+          "duration" : 10380
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'username': '李静', 'pwd': '123456', 'sex': 'F', 'guoji': 'faguo', 'like': 'wanyouxi', 'xueli': '研究生', 'ziwojies': '我是自动化输入的,输入就是成功了', 'zp': 'D:\\\\A\\\\5.png', 'zc': '清空', 'key': 'K002'}" ]
+      }, {
+        "name" : "test_001[data0]",
+        "uid" : "289ed3b333d15845",
+        "parentUid" : "79a11ce1faf9765998232307fd609b62",
+        "status" : "passed",
+        "time" : {
+          "start" : 1682566775656,
+          "stop" : 1682566787767,
+          "duration" : 12111
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'username': '李四', 'pwd': '123456', 'sex': 'F', 'guoji': 'zonguo', 'like': 'dalanqiu,tizuqiu', 'xueli': '大专', 'ziwojies': '我是自动化输入的,输入就是成功了', 'zp': 'D:\\\\A\\\\2.png,D:\\\\A\\\\3.png', 'zc': '注册', 'key': 'K001'}" ]
+      } ],
+      "uid" : "79a11ce1faf9765998232307fd609b62"
+    }, {
+      "name" : "42888-MainThread",
+      "children" : [ {
+        "name" : "test_001[data0]",
+        "uid" : "447f8413e260b7cb",
+        "parentUid" : "68f0e1441492715d2f2941b49251818b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1682566954472,
+          "stop" : 1682566966572,
+          "duration" : 12100
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'username': '李四', 'pwd': '123456', 'sex': 'F', 'guoji': 'zonguo', 'like': 'dalanqiu,tizuqiu', 'xueli': '大专', 'ziwojies': '我是自动化输入的,输入就是成功了', 'zp': 'D:\\\\A\\\\2.png,D:\\\\A\\\\3.png', 'zc': '注册', 'key': 'K001'}" ]
+      }, {
+        "name" : "test_001[data1]",
+        "uid" : "df9e4a5caa93e31f",
+        "parentUid" : "68f0e1441492715d2f2941b49251818b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1682566973383,
+          "stop" : 1682566985743,
+          "duration" : 12360
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'username': '李静', 'pwd': '123456', 'sex': 'F', 'guoji': 'faguo', 'like': 'wanyouxi', 'xueli': '研究生', 'ziwojies': '我是自动化输入的,输入就是成功了', 'zp': 'D:\\\\A\\\\5.png', 'zc': '清空', 'key': 'K002'}" ]
+      }, {
+        "name" : "test_001[data2]",
+        "uid" : "fbf9211666266806",
+        "parentUid" : "68f0e1441492715d2f2941b49251818b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1682566992500,
+          "stop" : 1682566999165,
+          "duration" : 6665
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'username': '李静', 'pwd': '123456', 'sex': 'F', 'guoji': 'yinguo', 'like': '', 'xueli': '研究生', 'ziwojies': '我是自动化输入的,输入就是成功了', 'zp': '', 'zc': '清空', 'key': 'K004'}" ]
+      } ],
+      "uid" : "68f0e1441492715d2f2941b49251818b"
+    } ],
+    "uid" : "b50aa906f6bb48d63b24986886815f0f"
+  } ]
+}

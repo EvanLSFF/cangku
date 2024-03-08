@@ -1,0 +1,121 @@
+{
+  "uid" : "5f9c69af63f7e2d7",
+  "name" : "test_001[data0]",
+  "fullName" : "script.test_form.Test01#test_001",
+  "historyId" : "2526c754da91a83ff38c35c1579f4b3a",
+  "time" : {
+    "start" : 1682566256512,
+    "stop" : 1682566268705,
+    "duration" : 12193
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_xunit_setup_method_fixture_Test01",
+    "time" : {
+      "start" : 1682566254829,
+      "stop" : 1682566256512,
+      "duration" : 1683
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "覆盖用例,k001,K002,K003",
+      "time" : {
+        "start" : 1682566256512,
+        "stop" : 1682566268705,
+        "duration" : 12193
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7f10cfbeca33d497",
+        "name" : "步骤:输入账号:李四",
+        "source" : "7f10cfbeca33d497.attach",
+        "type" : "application/octet-stream",
+        "size" : 0
+      } ],
+      "parameters" : [ {
+        "name" : "data",
+        "value" : "{'username': '李四', 'pwd': '123456', 'sex': 'F', 'guoji': 'zonguo', 'like': 'dalanqiu,tizuqiu', 'xueli': '大专', 'ziwojies': '我是自动化输入的,输入就是成功了', 'zp': 'D:\\\\A\\\\2.png,D:\\\\A\\\\3.png', 'zc': '注册', 'key': 'K001'}"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_xunit_setup_method_fixture_Test01::0",
+    "time" : {
+      "start" : 1682566268707,
+      "stop" : 1682566273948,
+      "duration" : 5241
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "script"
+  }, {
+    "name" : "suite",
+    "value" : "test_form"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test01"
+  }, {
+    "name" : "host",
+    "value" : "ZWY"
+  }, {
+    "name" : "thread",
+    "value" : "32944-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "script.test_form"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'username': '李四', 'pwd': '123456', 'sex': 'F', 'guoji': 'zonguo', 'like': 'dalanqiu,tizuqiu', 'xueli': '大专', 'ziwojies': '我是自动化输入的,输入就是成功了', 'zp': 'D:\\\\A\\\\2.png,D:\\\\A\\\\3.png', 'zc': '注册', 'key': 'K001'}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5f9c69af63f7e2d7.json",
+  "parameterValues" : [ "{'username': '李四', 'pwd': '123456', 'sex': 'F', 'guoji': 'zonguo', 'like': 'dalanqiu,tizuqiu', 'xueli': '大专', 'ziwojies': '我是自动化输入的,输入就是成功了', 'zp': 'D:\\\\A\\\\2.png,D:\\\\A\\\\3.png', 'zc': '注册', 'key': 'K001'}" ]
+}

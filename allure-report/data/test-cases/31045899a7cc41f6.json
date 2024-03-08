@@ -1,0 +1,127 @@
+{
+  "uid" : "31045899a7cc41f6",
+  "name" : "test_001[data1]",
+  "fullName" : "script.test_form.Test01#test_001",
+  "historyId" : "491bab653610aab38f398d6d37abf2be",
+  "time" : {
+    "start" : 1682566858906,
+    "stop" : 1682566869241,
+    "duration" : 10335
+  },
+  "status" : "broken",
+  "statusMessage" : "FileNotFoundError: [Errno 2] No such file or directory: 'screen/K00220230427_114109.png'",
+  "statusTrace" : "self = <test_form.Test01 object at 0x0000022ECB81B0A0>\ndata = {'guoji': 'faguo', 'key': 'K002', 'like': 'wanyouxi', 'pwd': '123456', ...}\n\n    @allure.step(title=\"覆盖用例,k001,K002,K003\")\n    @pytest.mark.parametrize(\"data\",yaml_data_with_file('data/data.yaml','test_zhuce_001'))\n    def test_001(self,data):\n        username = data[\"username\"]\n        pwd = data[\"pwd\"]\n        sex = data[\"sex\"]\n        guoji = data[\"guoji\"]\n        like = data[\"like\"]\n        xueli = data[\"xueli\"]\n        ziwojies = data[\"ziwojies\"]\n        zp = data[\"zp\"] #D:\\A\\2.png,C:\\A\\3.png\n        zc = data[\"zc\"]\n        allure.attach(\"\",\"步骤:输入账号:\"+data[\"username\"])\n        self.webBase_driver.getUrl(self.url)\n    \n        self.webBase_driver.input_username(username)\n        time.sleep(1)\n    \n        self.webBase_driver.input_pwd(pwd)\n    \n        self.webBase_driver.click_sex(sex)\n    \n        self.webBase_driver.click_guoji(guoji)\n    \n        self.webBase_driver.clicks_like(like)\n    \n        self.webBase_driver.select_click(xueli)\n    \n        self.webBase_driver.big_sendkeys(ziwojies)\n    \n        self.webBase_driver.upfiles(zp)\n        time.sleep(2)\n        self.webBase_driver.click_zhuceorqingkong(zc)\n        time.sleep(1)\n    \n>       self.webBase_driver.assert_001(zc,data[\"key\"])\n\nscript\\test_form.py:58: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <page.page_input.Pageform object at 0x0000022ECB8C3160>, loc = '清空', key = 'K002'\n\n    def assert_001(self,loc,key):\n        if loc==\"注册\":\n            alert=self.getJsText()\n            assert True if alert==\"注册成功\" else False\n            self.getJsAccept()\n        elif loc==\"清空\":\n            pngName=self.savePng_AutoScreenFile(key)\n>           allure.attach(open(\"screen/\"+key+pngName+'.png','rb').read(),\"步骤:本次截图\",allure.attachment_type.PNG)\nE           FileNotFoundError: [Errno 2] No such file or directory: 'screen/K00220230427_114109.png'\n\npage\\page_input.py:64: FileNotFoundError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_xunit_setup_method_fixture_Test01",
+    "time" : {
+      "start" : 1682566857402,
+      "stop" : 1682566858904,
+      "duration" : 1502
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "FileNotFoundError: [Errno 2] No such file or directory: 'screen/K00220230427_114109.png'",
+    "statusTrace" : "self = <test_form.Test01 object at 0x0000022ECB81B0A0>\ndata = {'guoji': 'faguo', 'key': 'K002', 'like': 'wanyouxi', 'pwd': '123456', ...}\n\n    @allure.step(title=\"覆盖用例,k001,K002,K003\")\n    @pytest.mark.parametrize(\"data\",yaml_data_with_file('data/data.yaml','test_zhuce_001'))\n    def test_001(self,data):\n        username = data[\"username\"]\n        pwd = data[\"pwd\"]\n        sex = data[\"sex\"]\n        guoji = data[\"guoji\"]\n        like = data[\"like\"]\n        xueli = data[\"xueli\"]\n        ziwojies = data[\"ziwojies\"]\n        zp = data[\"zp\"] #D:\\A\\2.png,C:\\A\\3.png\n        zc = data[\"zc\"]\n        allure.attach(\"\",\"步骤:输入账号:\"+data[\"username\"])\n        self.webBase_driver.getUrl(self.url)\n    \n        self.webBase_driver.input_username(username)\n        time.sleep(1)\n    \n        self.webBase_driver.input_pwd(pwd)\n    \n        self.webBase_driver.click_sex(sex)\n    \n        self.webBase_driver.click_guoji(guoji)\n    \n        self.webBase_driver.clicks_like(like)\n    \n        self.webBase_driver.select_click(xueli)\n    \n        self.webBase_driver.big_sendkeys(ziwojies)\n    \n        self.webBase_driver.upfiles(zp)\n        time.sleep(2)\n        self.webBase_driver.click_zhuceorqingkong(zc)\n        time.sleep(1)\n    \n>       self.webBase_driver.assert_001(zc,data[\"key\"])\n\nscript\\test_form.py:58: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <page.page_input.Pageform object at 0x0000022ECB8C3160>, loc = '清空', key = 'K002'\n\n    def assert_001(self,loc,key):\n        if loc==\"注册\":\n            alert=self.getJsText()\n            assert True if alert==\"注册成功\" else False\n            self.getJsAccept()\n        elif loc==\"清空\":\n            pngName=self.savePng_AutoScreenFile(key)\n>           allure.attach(open(\"screen/\"+key+pngName+'.png','rb').read(),\"步骤:本次截图\",allure.attachment_type.PNG)\nE           FileNotFoundError: [Errno 2] No such file or directory: 'screen/K00220230427_114109.png'\n\npage\\page_input.py:64: FileNotFoundError",
+    "steps" : [ {
+      "name" : "覆盖用例,k001,K002,K003",
+      "time" : {
+        "start" : 1682566858906,
+        "stop" : 1682566869239,
+        "duration" : 10333
+      },
+      "status" : "broken",
+      "statusMessage" : "FileNotFoundError: [Errno 2] No such file or directory: 'screen/K00220230427_114109.png'\n",
+      "statusTrace" : "  File \"d:\\test_softward\\python\\lib\\site-packages\\allure_commons\\_allure.py\", line 192, in impl\n    return func(*a, **kw)\n  File \"C:\\Users\\10267\\PycharmProjects\\PO_zijixie\\script\\test_form.py\", line 58, in test_001\n    self.webBase_driver.assert_001(zc,data[\"key\"])\n  File \"C:\\Users\\10267\\PycharmProjects\\PO_zijixie\\page\\page_input.py\", line 64, in assert_001\n    allure.attach(open(\"screen/\"+key+pngName+'.png','rb').read(),\"步骤:本次截图\",allure.attachment_type.PNG)\n",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "731b96a027827ab4",
+        "name" : "步骤:输入账号:李静",
+        "source" : "731b96a027827ab4.attach",
+        "type" : "application/octet-stream",
+        "size" : 0
+      } ],
+      "parameters" : [ {
+        "name" : "data",
+        "value" : "{'username': '李静', 'pwd': '123456', 'sex': 'F', 'guoji': 'faguo', 'like': 'wanyouxi', 'xueli': '研究生', 'ziwojies': '我是自动化输入的,输入就是成功了', 'zp': 'D:\\\\A\\\\5.png', 'zc': '清空', 'key': 'K002'}"
+      } ],
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_xunit_setup_method_fixture_Test01::0",
+    "time" : {
+      "start" : 1682566869782,
+      "stop" : 1682566875023,
+      "duration" : 5241
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "script"
+  }, {
+    "name" : "suite",
+    "value" : "test_form"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test01"
+  }, {
+    "name" : "host",
+    "value" : "ZWY"
+  }, {
+    "name" : "thread",
+    "value" : "54068-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "script.test_form"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'username': '李静', 'pwd': '123456', 'sex': 'F', 'guoji': 'faguo', 'like': 'wanyouxi', 'xueli': '研究生', 'ziwojies': '我是自动化输入的,输入就是成功了', 'zp': 'D:\\\\A\\\\5.png', 'zc': '清空', 'key': 'K002'}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "31045899a7cc41f6.json",
+  "parameterValues" : [ "{'username': '李静', 'pwd': '123456', 'sex': 'F', 'guoji': 'faguo', 'like': 'wanyouxi', 'xueli': '研究生', 'ziwojies': '我是自动化输入的,输入就是成功了', 'zp': 'D:\\\\A\\\\5.png', 'zc': '清空', 'key': 'K002'}" ]
+}
